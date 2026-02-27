@@ -1,13 +1,6 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-# CN
-https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-
-# JP
-https://raw.githubusercontent.com/iptv-org/iptv/master/streams/jp.m3u
-
-# 国内整理
 https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 
 [WHITELIST]

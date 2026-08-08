@@ -12,8 +12,10 @@ https://iptv-org.github.io/iptv/countries/cn.m3u
 https://iptv-org.github.io/iptv/countries/hk.m3u
 # iptv-org 台湾频道
 https://iptv-org.github.io/iptv/countries/tw.m3u
-# 中文频道合集（IPv6 源，需运行环境支持 IPv6）
-https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+
+# 注：fanmingming/live 中文合集为「中国移动 IPv6」专用源，电信/联通网络无法播放，
+# 已移除。若使用移动宽带或支持 IPv6 的设备，可取消注释下面这一行重新启用：
+# https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
 # 如需覆盖更多国际频道，可取消注释以下 iptv-org 全量列表（约 9000 个频道，会明显增加更新耗时）：
 # https://iptv-org.github.io/iptv/index.m3u

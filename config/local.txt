@@ -4,3 +4,37 @@
 # The local source list, one line per source, format: channel name, interface address
 # Support setting whitelist: add $! after the interface
 # If there are multiple local source files, you can create a local directory under the config directory for storage, supporting txt/m3u file formats
+#
+# 以下为已验证可播放的公共直播源（2026-08-08 验证），作为补充本地源：
+# 74.91.26.218:82 服务器个别频道偶有不稳定，测速阶段会自动过滤失效地址
+CCTV-1,http://74.91.26.218:82/live/cctv1hd.m3u8
+CCTV-2,http://74.91.26.218:82/live/cctv2hd.m3u8
+CCTV-3,http://74.91.26.218:82/live/cctv3hd.m3u8
+CCTV-4,http://74.91.26.218:82/live/cctv4hd.m3u8
+CCTV-6,http://74.91.26.218:82/live/cctv6hd.m3u8
+CCTV-7,http://74.91.26.218:82/live/cctv7hd.m3u8
+CCTV-8,http://74.91.26.218:82/live/cctv8hd.m3u8
+CCTV-9,http://74.91.26.218:82/live/cctv9hd.m3u8
+CCTV-10,http://74.91.26.218:82/live/cctv10hd.m3u8
+CCTV-11,http://74.91.26.218:82/live/cctv11hd.m3u8
+CCTV-12,http://74.91.26.218:82/live/cctv12hd.m3u8
+CCTV-13,http://74.91.26.218:82/live/cctv13hd.m3u8
+CCTV-14,http://74.91.26.218:82/live/cctv14hd.m3u8
+CCTV-15,http://74.91.26.218:82/live/cctv15hd.m3u8
+CCTV-17,http://74.91.26.218:82/live/cctv17hd.m3u8
+CCTV-5+,https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8
+CETV-4,http://74.91.26.218:82/live/cetv4hd.m3u8
+广东卫视,http://74.91.26.218:82/live/gdwshd.m3u8
+浙江卫视,http://74.91.26.218:82/live/zjwshd.m3u8
+湖南卫视,http://74.91.26.218:82/live/hnwshd.m3u8
+东方卫视,http://74.91.26.218:82/live/dfwshd.m3u8
+江苏卫视,http://74.91.26.218:82/live/jswshd.m3u8
+山东卫视,http://74.91.26.218:82/live/sdwshd.m3u8
+辽宁卫视,http://74.91.26.218:82/live/lswshd.m3u8
+四川卫视,http://74.91.26.218:82/live/scwshd.m3u8
+深圳卫视,http://74.91.26.218:82/live/szwshd.m3u8
+河南卫视,http://74.91.26.218:82/live/henwshd.m3u8
+天津卫视,http://125.42.148.9:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+广东新闻,http://74.91.26.218:82/live/gdxw.m3u8
+广东民生,http://74.91.26.218:82/live/gdms.m3u8
+汕头综合,http://74.91.26.218:82/live/stcnhd.m3u8

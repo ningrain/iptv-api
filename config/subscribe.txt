@@ -2,9 +2,21 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+#
+# 以下为已验证可访问的公共订阅源（2026-08-08 验证 200 OK）：
+# Public IPTV subscription sources, verified reachable.
 
+# iptv-org 中国频道
+https://iptv-org.github.io/iptv/countries/cn.m3u
+# iptv-org 香港频道
+https://iptv-org.github.io/iptv/countries/hk.m3u
+# iptv-org 台湾频道
+https://iptv-org.github.io/iptv/countries/tw.m3u
+# 中文频道合集（IPv6 源，需运行环境支持 IPv6）
+https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
-
+# 如需覆盖更多国际频道，可取消注释以下 iptv-org 全量列表（约 9000 个频道，会明显增加更新耗时）：
+# https://iptv-org.github.io/iptv/index.m3u
 
 
 [WHITELIST]

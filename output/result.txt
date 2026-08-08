@@ -29,4 +29,3 @@ CCTV-17,http://74.91.26.218:82/live/cctv17hd.m3u8
 广东新闻,http://74.91.26.218:82/live/gdxw.m3u8
 广东卫视,http://74.91.26.218:82/live/gdwshd.m3u8
 深圳卫视,http://74.91.26.218:82/live/szwshd.m3u8
-汕头综合,http://74.91.26.218:82/live/stcnhd.m3u8

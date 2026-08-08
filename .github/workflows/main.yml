@@ -18,6 +18,11 @@ on:
     - cron: '15 4 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
@@ -54,3 +59,25 @@ jobs:
             git commit -m "Github Action Auto Updated"
             git push --force
           fi
+
+  # 更新完成后将结果部署到 GitHub Pages，提供国内可直接访问的地址
+  deploy:
+    needs: push
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

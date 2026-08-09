@@ -3,7 +3,7 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 #
-# 以下为已验证可访问的公共订阅源（2026-08-08 验证 200 OK）：
+# 以下为已验证可访问的公共订阅源（2026-08-09 验证 200 OK）：
 # Public IPTV subscription sources, verified reachable.
 
 # iptv-org 中国频道
@@ -12,6 +12,23 @@ https://iptv-org.github.io/iptv/countries/cn.m3u
 https://iptv-org.github.io/iptv/countries/hk.m3u
 # iptv-org 台湾频道
 https://iptv-org.github.io/iptv/countries/tw.m3u
+
+# best-fan 国内频道全集
+https://raw.githubusercontent.com/best-fan/iptv-sources/master/cn_all.m3u8
+# vbskycn IPv4 自动检测源
+https://live.zbds.top/tv/iptv4.m3u
+# Guovin IPv4 已筛选结果
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
+# YanG-1989 频道合集
+https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
+# Kimentanm APTV 频道合集
+https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+# YueChan 频道合集
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
+# ChinaIPTV 自动更新源
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
+# zwc456baby 有效源合集
+https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
 
 # 注：fanmingming/live 中文合集为「中国移动 IPv6」专用源，电信/联通网络无法播放，
 # 已移除。若使用移动宽带或支持 IPv6 的设备，可取消注释下面这一行重新启用：
